@@ -11,7 +11,7 @@ $ AWS_PROFILE=default ansible-playbook multi.yml
 $ AWS_PROFILE=sa ansible-playbook multi.yml
 ```
 
-## switch using inventories
+## Switch using inventories
 
 Each Environment has its own variables, in this case using profile names.
 
