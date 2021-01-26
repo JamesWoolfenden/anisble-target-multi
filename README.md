@@ -1,5 +1,7 @@
 # Multiple AWS accounts
 
+How do you target different/multiple AWS accounts?
+
 ## Switch by profile
 
 Override Environment variables for a command, e.g. profiles.
