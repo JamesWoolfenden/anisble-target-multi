@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  gather_facts: true
+- hosts: localhost
+  vars:
+    
+  tasks:
+   # Lists all s3 buckets
+  - community.aws.aws_s3_bucket_info:
+    register: result
+
+  - name: List buckets
+    ansible.builtin.debug:
+      msg: "{{ result['buckets'] }}"
